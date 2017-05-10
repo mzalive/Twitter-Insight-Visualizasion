@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 5px 50px 10px 50px;
+    box-shadow: 1px 1px 1px 1px #fff;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-weight: 700;
+    color: #4e5a64;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 700;
+    color: #4e5a64;
+    font-size: 26px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+p {
+    margin: 15px 0 10px 0;
+}
+
+.backgroud {
+    fill: none;
+    pointer-events: all;
+}
+
+svg {
+}
+
+svg path {
+    stroke: #FFFFFF;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.baseMap path {
+    fill: #888888;
+    stroke: rgba(85, 16, 114, 0.33);
+}
+
+svg path:hover {
+    fill-opacity: 0.7;
+    fill: rgb(164, 26, 222);
+    stroke: #a41ade;
+}
+
+g text {
+    fill: #555555;
+    pointer-events: none;
+}
+
+.navData {
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+}
+
+#heatLegend {
+    clear: left;
+    width: 247px;
+    color: #777;
+    margin-top: 10px;
+    background: #f3f3f3;
+    border: 1px solid #f0f0f0;
+    overflow: hidden;
+    padding: 5px 7px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 11px;
+    line-height: 11px;
+    margin-bottom: 10px;
+    margin-right: 24px;
+    display: inline-block;
+}
+
+#heatLegend ul {
+    list-style-type: none;
+    overflow: hidden;
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+#heatLegend li {
+    float: left;
+    margin-right: 1px;
+    width: 20px;
+    height: 20px;
+}
+
+#heatLegend p {
+    margin: 3px 0 0 0;
+}
+
+#heatLegend p.more {
+    float: right;
+}
+
+#heatLegend p.less {
+    float: left;
+}
+
+#extraHeading {
+    text-align: center;
+}
+
+#extrasvg > div {
+    display: inline-block;
+    /*width: 50%;*/
+}
+.axis text {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+#progress {
+    margin-top: 20px;
+}
+
+.tooltip{
+    position: absolute;
+    /*width: 120px;*/
+    padding: 5px 10px;
+    height: auto;
+    font-size: 14px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
