@@ -303,7 +303,7 @@ function renderSentiment() {
             }
         }
 
-        var week_day_name = ["Sun", "Mon", "Tus", "Wed", "Thu", "Fri", "Sat"];
+        var week_day_name = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
         var week_day_value = [];
         $.each(week_day_name, function (i, name) {
             week_day_value[i] = (wk[name] === undefined) ? 0.5 : wk[name];
